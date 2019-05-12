@@ -1,0 +1,15 @@
+{
+  "name": "serverless-nodejs",
+  "version": "1.0.0",
+  "description": "npm install -g serverless",
+  "main": "optimize.js",
+  "dependencies": {
+    "sharp": "^0.22.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "serverless deploy -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
