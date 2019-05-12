@@ -1,6 +1,17 @@
-npm install -g serverless
+Install dependencies for project
+-----
+* npm install -g serverless
 
-npm create -t aws-nodejs
+Create a new project based on aws-nodejs template
+----
+* npm create -t aws-nodejs
 
-##Configuração das credentials pela amazon
-serverless config credentials --provider aws --key {{AWS_ACCESS_KEY}} --secret {{AWS_SECRET_ACCESS_KEY}}
+Config credentials for aws
+----
+* serverless config credentials --provider aws --key {{AWS_ACCESS_KEY}} --secret {{AWS_SECRET_ACCESS_KEY}}
+
+Serverless commands
+----
+[Doc Serverless aws-cli](https://serverless.com/framework/docs/providers/aws/cli-reference/ "Serverless aws-cli")
+
+![alt text](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/serverless-framework-logo.width-808.png)
